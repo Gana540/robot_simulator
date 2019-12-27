@@ -4,7 +4,7 @@ This Project is a Robot Toy simulation on a Table, responding to the commands, t
 
 ## Getting Started
 
-The script is built in Python 3, I've been learning python recently and i picked this project in python to gain more confidence and self assess my though process and approcing the problem solving in Python it was greatly helping me throughout the time i spent on this projct- It can be checkedout and run in any online or standalone python Runtime env.
+The script is built in Python 3, It can be checkedout and run in any online or standalone python Runtime env.
 
 ### Prerequisites
 
@@ -34,3 +34,7 @@ Python 3 in any Machine will do.
 5. Some Sample Error Messages :
 ![ERROR](4.%20Error%20Scenario%20%20-%20Invalid%20Place%20Command.PNG?raw=true "Error scenarios")
 ![ERROR](5.%20Error%20Scenario%20-%20Error%20-%20Left%20or%20Right%20Commands%20without%20Place.PNG?raw=true "Error scenarios")
+
+## About Author 
+
+I'am a Tech Lead working in integration architectures based on SOA / Microservices - I've been learning python recently and i picked this project in python to gain more confidence and self assess my thought process and approcing problem solving in Python, it was greatly helping me throughout the time i spent on this projct
