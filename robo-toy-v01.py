@@ -52,10 +52,13 @@ class Robot_Game(object):
             self.move_toy()
     # alter the current position before moving the Toy. This just orchstrates the Movement of the toy.
     def moveCommand(self):
+      if(hasattr(self,'curr_pos')):  
         d = Robot_Game.CTRLS.index(self.direction)
         self.prev_pos = self.curr_pos[:]
         self.curr_pos[d > 2] += d - (1 if d < 3 else 4)
         self.move_toy()
+      else:
+        print(bcolors().FAIL, "Plase Place the toy in the table(5 X 5) before you can move it", bcolors().ENDC)
     # Rotate the toy 90 degrees left from the current position.
     def rotateToyLeft(self):
         if(hasattr(self,'direction')):
@@ -96,7 +99,7 @@ class Robot_Game(object):
             print(bcolors().OKBLUE,str(self.table),bcolors.ENDC)
             print (bcolors().OKBLUE,"\n****************",bcolors.ENDC)
             ctrl = input("Place(X,Y,F), left, right, Move, or Report ?").lower()
-            if "move" in ctrl and hasattr(self,'curr_pos'):
+            if "move" in ctrl:
                 self.moveCommand()
             elif "left" in ctrl:
                 self.rotateToyLeft()
