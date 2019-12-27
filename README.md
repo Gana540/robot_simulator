@@ -4,7 +4,7 @@ This Project is a Robot Toy simulation on a Table, responding to the commands, t
 
 ## Getting Started
 
-The script is built in Python 3 - It can be checkedout and run in any online or standalone python Runtime env.
+The script is built in Python 3, I've been learning python recently and i picked this project in python to gain more confidence and self assess my though process and approcing the problem solving in Python it was greatly helping me throughout the time i spent on this projct- It can be checkedout and run in any online or standalone python Runtime env.
 
 ### Prerequisites
 
