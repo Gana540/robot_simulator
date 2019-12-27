@@ -18,3 +18,19 @@ Python 3 in any Machine will do.
 
 ## Running the tests
 
+1. Initial Screen result (after running the Python) 
+
+![ERROR](0.%20Initial%20Screen%20result.PNG?raw=true "initial screen")
+
+2. Place Move and Report Scenario :
+![ERROR](1.%20Place%20Command%20Scenario%201.PNG?raw=true "Place scenario 1")
+
+3. Place , Rotate the Toy and Report Scenario :
+![ERROR](2.%20Place%20Command%20Scenario%202.PNG?raw=true "Place scenario 2")
+
+4. Place , Rotate , Move the Toy & Report Scenario :
+![ERROR](3.%20Place%20Command%20Scenario%203.png?raw=true "Place scenario 3")
+
+5. Some Sample Error Messages :
+![ERROR](4.%20Error%20Scenario%20%20-%20Invalid%20Place%20Command.PNG?raw=true "Error scenarios")
+![ERROR](5.%20Error%20Scenario%20-%20Error%20-%20Left%20or%20Right%20Commands%20without%20Place.PNG?raw=true "Error scenarios")
