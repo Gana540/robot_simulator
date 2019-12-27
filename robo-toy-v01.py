@@ -103,7 +103,10 @@ class Robot_Game(object):
             elif "right" in ctrl:
                 self.rotateToyRight()
             elif "report" in ctrl :
+              try:
                 print(bcolors().OKGREEN , "Output:", self.curr_pos[0],",",self.curr_pos[1] ,",",self.direction.upper(), bcolors().ENDC)
+              except:
+                print(bcolors().FAIL, "Nothing to Report - Please place the Toy on the table to report its coordinates and direction", bcolors().ENDC ) 
             elif "place" in ctrl :
                 self.placeTheToy(ctrl)
             elif ctrl == Robot_Game.EXIT:
